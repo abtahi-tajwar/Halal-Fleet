@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Fjalla One;
+}
+
+/* Top black navigation bar holder */
+.top_nav_wrapper{
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  background-color: black;
+  height: 70px;
+  width: 100%;
+}
+
+/* Defines rules for the logo located on the left side on top nav */
+.top_nav_logo{
+  height: 60px;
+  width: 60px;
+  float: left;
+  margin-left: 50px;
+  margin-top: 5px;
+}
+ /* Wraps the menu part of navigation bar */
+ .top_nav_menu_wrapper{
+   float: right;
+   margin-right: 50px;
+ }
+ .top_nav_menu_wrapper ul{
+   list-style: none;
+ }
+ .top_nav_menu_wrapper ul a{
+   text-decoration: none;
+   float: left;
+   border-top: 2px solid transparent;
+
+ }
+ .top_nav_menu_wrapper ul a li{
+   float: left;
+   color: white;
+   padding-top: 23px;
+   padding-bottom: 26px;
+   padding-left: 30px;
+   padding-right: 30px;
+ }
+
+ .top_nav_menu_wrapper ul a:hover{
+   border-top-color: white;
+   background-color: gray;
+   transition: all 0.5s ease-in-out;
+ }
+ /*---------------------------------------------------- */
+
+ /* ---------------------------------------------------- */
+ .halal_fleet_wrapper{
+   height: 800px;
+   background-repeat: no-repeat;
+   background-image: url("../sprite/halal_fleet_background.png");
+   position: relative;
+ }
+.hala_fleet_name{
+  position: absolute;
+  top: 170px;
+  right: 5%;
+  color: white;
+  font-size: 100px;
+}
+.hala_fleet_desc{
+  position: absolute;
+  width: 1000px;
+  top: 370px;
+  right: 5%;
+  color: white;
+  font-size: 30px;
+  text-align: right;
+}
+
+
+ /* -------------------------------------------------- */
+ /* This class is for wrapping fleet admiral intro. */
+ .ariyan_fleet_admiral_wrapper{
+   position: relative;
+   height: 600px;
+   border: 0.01px solid white;
+ }
+ .fleet_admiral_wrapper{
+   position: absolute;
+   left: 0;
+   top: 0;
+   height: 600px;
+   width: 40%;
+   border: 0.1px solid black;
+   background-image: url("../sprite/ariyan_fleet_admiral.PNG");
+ }
+/* This class is for making a black layer on background image */
+.fleet_admiral_background_layer{
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.8;
+  border: 0.1px solid black;
+}
+#fleet_admiral_picture{
+  margin-top: 250px;
+  height: 100px;
+  width: 100px;
+  height: 100px;
+  border: 5px solid white;
+  border-radius: 50%;
+  opacity: 1;
+}
+/* .fleet_admiral_wrapper:hover{
+  width: 60%;
+  opacity: 0.9;
+  transition: all 0.5s ease;
+} */
+
+/* This class is for right intro of halal fleet first fleet admiral */
+.fleet_admiral_intro p{
+  position: absolute;
+  top: 25%;
+  bottom: 25%;
+ width: 500px;
+ right: 50px;
+}
+.fleet_admiral_intro p{
+ font-weight: bold;
+ font-size: 30px;
+ float: right;
+ text-align: right;
+}
+/* --------------------------------------------------------- */
+
+
+
+
+/* --------------------------------------------------------- */
+/* This class is for wrapping fleet admiral intro. */
+.othello_fleet_admiral_wrapper{
+  position: relative;
+  height: 600px;
+}
+.fleet_admiral_wrapper_othello{
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 600px;
+  width: 40%;
+  border: 0.1px solid black;
+  background-image: url("../sprite/fleet_admiral_othello_background_picture.jpg");
+  background-position: right;
+  background-repeat: none;
+}
+/* This class is for making a black layer on background image */
+.fleet_admiral_background_layer_othello{
+ height: 100%;
+ width: 100%;
+ background-color: black;
+ opacity: 0.8;
+ border: 0.1px solid black;
+}
+#fleet_admiral_picture{
+ margin-top: 250px;
+ height: 100px;
+ width: 100px;
+ height: 100px;
+ border: 5px solid white;
+ border-radius: 50%;
+ opacity: 1;
+}
+/* .fleet_admiral_wrapper_othello:hover{
+ width: 60%;
+ opacity: 0.9;
+ transition: all 0.5s ease;
+} */
+
+/* This class is for right intro of halal fleet first fleet admiral */
+.fleet_admiral_intro_othello p{
+  position: absolute;
+ width: 500px;
+ left: 50px;
+ top: 25%;
+ bottom: 25%;
+}
+.fleet_admiral_intro_othello p{
+ font-weight: bold;
+ font-size: 30px;
+ text-align: left;
+
+}
+
+/* ------------------------------------------- */
+
+
+
+/* ------------------------------------------- */
+/* Holds the whole section of admiral */
+.admiral_wrapper_tajwar{
+  height: 600px;
+  position: relative;
+}
+/* Holds the profile picture of admiral */
+.wrapper_admiral_tajwar_dp{
+  position: absolute;
+  height: 250px;
+  left: 25%;
+  right: 25%;
+  top: 50px;
+}
+/* Modifies the picture of admiral Tajwar */
+.wrapper_admiral_tajwar{
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 50%;
+}
+.wrapper_admiral_tajwar_dp:hover{
+  border-bottom: 2px solid black;
+  transition: all 0.5s;
+}
+
+/* Holds the intro text of admiral_tajwar */
+.wrapper_admiral_tajwar_intro{
+  position: absolute;
+  height: 200px;
+  left: 5%;
+  right: 5%;
+  bottom: 0;
+}
+.wrapper_admiral_tajwar_intro p{
+  text-align: center;
+  font-size: 30px;
+}
