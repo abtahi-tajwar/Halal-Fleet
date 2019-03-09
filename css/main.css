@@ -233,3 +233,22 @@
   text-align: center;
   font-size: 30px;
 }
+/* -------------------------------------------- */
+
+/* The div which holds the total bot chat */
+.bot_chat_wrapper{
+  background-color: yellow;
+
+  height: 500px;
+  border: 0.001px solid white;
+  position: relative;
+}
+.bot_chat_image_holder{
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  left: 100px;
+  background-color: red;
+  border: 0.001px solid black;
+  border-radius: 50%;
+}

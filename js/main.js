@@ -1,3 +1,6 @@
+var bot_chat_wrapper_height = 400;
+var bot_chat_image_holder_height = 200;
+
 $("document").ready(function() {
   $(".fleet_admiral_wrapper").mouseover(function(){
     $(this).css({
@@ -29,5 +32,12 @@ $("document").ready(function() {
     });
   });
 
+  bot_chat_wrapper_height = $(".bot_chat_wrapper").height();
+  bot_chat_image_holder_height = $(".bot_chat_image_holder").width();
 
-})
+  $(".bot_chat_image_holder").css({
+    'margin-top': ((bot_chat_wrapper_height - bot_chat_image_holder_height)/2)+"px",
+    'margin-bottom': ((bot_chat_wrapper_height - bot_chat_image_holder_height)/2)+"px"
+  });
+
+});
