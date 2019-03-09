@@ -237,8 +237,6 @@
 
 /* The div which holds the total bot chat */
 .bot_chat_wrapper{
-  background-color: yellow;
-
   height: 500px;
   border: 0.001px solid white;
   position: relative;
@@ -248,7 +246,45 @@
   height: 200px;
   width: 200px;
   left: 100px;
-  background-color: red;
   border: 0.001px solid black;
   border-radius: 50%;
+  background-image: url("../sprite/halal_fleet_keeper.jpg");
+}
+.bot_chat_box_wrapper{
+  border: 0.0001px solid white;
+}
+.bot_chat_box_wrapper input{
+  position: absolute;
+  right: 150px;
+  border: 5px solid black;
+  border-radius: 20px;
+  padding: 10px 20px 10px 20px;
+  width: 1000px;
+  height: 50px;
+}
+.bot_chat_box_wrapper button{
+  position: absolute;
+  background-color: #96e3ff;
+  color: white;
+  right: 10px;
+  width: 120px;
+  height: 80px;
+  border: 2px solid #96e3ff;
+  border-radius: 20px;
+  cursor: pointer;
+
+}
+.bot_chat_box_wrapper button:hover{
+  background-color: white;
+  color: #96e3ff;
+  transition: all 0.5s;
+}
+.bot_chat_answer_holder{
+  background-color: black;
+  font-size: 150%;
+  height: 100px;
+  color: white;
+}
+.bot_chat_answer_holder p{
+  padding: 5px;
 }
